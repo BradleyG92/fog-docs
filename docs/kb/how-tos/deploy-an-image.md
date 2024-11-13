@@ -18,7 +18,7 @@ the re-imaging of existing machines.
 
 ## Prerequisites
 
-We're assuming here that you have captured a Windows 10 image like
+We're assuming here that you have captured a Windows 10 or 11 image like
 described above in this manual. Also, you have a new machine that is not
 registered at FOG and you would like to deploy the image onto this
 machine.
@@ -116,7 +116,7 @@ For now we will leave these fields empty. Press Enter both times.
 ### Deploy image now
 
 You are then asked to deploy the image now. If you say 'Y' here,
-besided restering this machine in Fog, also, a deployment task will be
+besides registering this machine in Fog, a deployment task will also be
 created. Upon next network boot of this machine, the image will be
 deployed to this machine.
 
@@ -129,7 +129,7 @@ credentials. These are the same credentials you use for the FOG Web UI.
 
 Type in your FOG username and password.
 
-After the questions this machine and it's inventory, like will be
+After the questions about this machine and it's inventory, it will be
 registered in FOG and a deployment task is created for this machine.
 
 Your machine will be rebooted.
@@ -139,9 +139,9 @@ Your machine will be rebooted.
 Make sure your machine boots from the network.
 
 After booting, partclone will be started and the image on the FOG server
-will be copied and unpacked on your machine:
+will be copied and unpacked on your machine.
 
 ### After imaging
 
-When the deployment has been completed, your machine will reboot now and
+When the deployment has been completed, your machine will reboot and,
 if all goes well, Windows should start.
